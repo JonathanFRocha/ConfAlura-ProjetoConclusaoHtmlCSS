@@ -1,0 +1,21 @@
+.panel_about { 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 100px;
+}
+
+.panel_about h2{
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.panel_about h3 {
+  margin: 15px 0px 10px 0px;
+  font-size: 1.4rem;
+}
+
+.panel_about p{
+  font-size: 0.9rem;
+  line-height: 1.7em;
+}

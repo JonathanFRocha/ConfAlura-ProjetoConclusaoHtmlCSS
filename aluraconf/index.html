@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraConf</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/header.css">
+  <link rel="stylesheet" href="./css/body.css">
+  <link rel="stylesheet" href="./css/cards.css">
+  <link rel="stylesheet" href="./css/form.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <ul class="menuNav">
+        <li class="menuNav_li" id="aboutLink"><a href="#about">SOBRE</a></li>
+        <li class="menuNav_li" id="speakersLink"><a href="#speakers">PALESTRANTES</a></li>
+      </ul>
+    </nav>
+    <container class="mainPanel">
+      <div class="mainPanel_titulos">
+        <h1>ALURACONF</h1>
+        <h2>30MAIO|RIO</h2>
+      </div>
+      <a id="signInFormLink" href="#signInForm">INSCREVA-SE</a>
+    </container>
+  </header>
+
+  <div class="panel panel_about" id="about">
+    <h2>Muito conteúdo: do frontend ao backend</h2>
+    <h3>30 de Maio de 2017 - na Cidade Maravilhosa</h3>
+    <p>
+      Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+    </p>
+    <p>
+      É uma grande chace de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido,
+      UX, além da parte backend com Rest, Microservices, e BigData. O desenvolvedor atualizado vai estar aqui.
+    </p>
+  </div>
+  <section class="card_container">
+    <h2 class="card_container-titulo" id="speakers">Palestrantes</h2>
+    <h4 class="card_container-subtitulo">Aprenda com palestrantes que são refêrencia no mercado</h4>
+    <ul class="card_grid">
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean</p>
+        </div>
+      </li>
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean</p>
+        </div>
+      </li>
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean To be or not be mean To be or not be mean To be or not be mean To be or not be mean To
+            be or not be mean To be or not be mean To be or not be mean To be or not be mean To be or not be mean To be
+            or not be mean To be or not be mean To be or not be mean To be or not be mean To be or not be mean</p>
+        </div>
+      </li>
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean</p>
+        </div>
+      </li>
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean</p>
+        </div>
+      </li>
+      <li class="card">
+        <img src="img/palestrantes/placeholder.jpeg" alt="Avatar">
+        <div class="card_text">
+          <h4><b>Jonathan Ferreira</b></h4>
+          <h5>desenvolvedor e instrutor da Caelum</h5>
+          <p>To be or not be mean</p>
+        </div>
+      </li>
+    </ul>
+  </section>
+  <form>
+    <section class="form" id="signInForm">
+      <h2 class="form_titulo">Seus Dados</h2>
+      <label class="form_label-nome" class="form_titulo" for="fNome">Nome</label>
+      <input class="form_input-nome" type="text" id="fNome" name="fNome">
+      <label class="form_label-email" for="fEmail">E-mail</label>
+      <input class="form_input-email" type="text" id="fEmail" name="fEmail">
+    </section>
+    <div class="form_button-div">
+      <button class="form_button">realizar inscrição</button>
+    </div>
+  </form>
+</body>
+
+
+<script src="./js/jquery.js"></script>
+<script src="./js/main.js"></script>
+</body>
+
+</html>
